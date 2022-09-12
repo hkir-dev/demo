@@ -1,0 +1,132 @@
+*************** demo
+
+docker build --quiet --tag odd:latest .
+
+docker run --rm -it -p 5004:5000 -v $(pwd):/work -w /work odd:latest make load
+
+docker run --rm -it -p 5004:5555 -v $(pwd):/work -w /work odd:latest ./run.py
+
+http://127.0.0.1:5004/table
+
+
+
+
+*************** nanobot
+used venv of "wiring.py": source ../wiring.py/.venv/bin/activate
+
+python nanobot_runner.py
+
+
+***************sqlite
+sqlite3 bds.db
+
+sqlite> .mode tabs
+sqlite> .import bds_data.tsv bds_table
+
+select * from bds_table limit 5;
+
+
+*************** https://github.com/ontodev/wiring.py
+
+++++
+(2.Installing Maturin)
+execute these steps in workspace2/wiring.py folder
+
+++++ wiring.py/Cargo.toml 
+(add lib path)
+[lib]
+path = "wiring.rs/src/lib.rs"
+name="wiring_rs"
+crate-type = ["cdylib", "lib"]
+
+++++ wiring.py/wiring.rs/Cargo.toml 
+(add pyo3 dependency)
+pyo3 = { version = "0.17.1", features = ["extension-module"] }
+
+
+++++ python demo.py
+======
+DEMO: LDTab to OFN-S expression
+-------------------------------
+Input: 
+
+Subject: obo:OBI_0001636
+Predicate: rdfs:subClassOf
+Object: {'owl:someValuesFrom': [{'datatype': '_IRI', 'object': 'obo:OBI_0500000'}], 'rdf:type': [{'datatype': '_IRI', 'object': 'owl:Restriction'}], 'owl:onProperty': [{'datatype': '_IRI', 'object': 'obo:BFO_0000050'}]}
+
+Output: 
+thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: Error("expected value", line: 1, column: 1)', wiring.rs/src/ldtab2ofn/thick_triple_parser.rs:18:52
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Traceback (most recent call last):
+  File "/home/huseyin/workspace2/wiring.py/demo.py", line 218, in <module>
+    ldtab_2_ofn_demo()
+  File "/home/huseyin/workspace2/wiring.py/demo.py", line 26, in ldtab_2_ofn_demo
+    print(wiring_rs.ldtab_2_ofn(subject, predicate, object_string))
+pyo3_runtime.PanicException: called `Result::unwrap()` on an `Err` value: Error("expected value", line: 1, column: 1)
+
+
+rust backtrace
+
+Output: 
+thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: Error("expected value", line: 1, column: 1)', wiring.rs/src/ldtab2ofn/thick_triple_parser.rs:18:52
+stack backtrace:
+   0: rust_begin_unwind
+             at /rustc/4b91a6ea7258a947e59c6522cd5898e7c0a6a88f/library/std/src/panicking.rs:584:5
+   1: core::panicking::panic_fmt
+             at /rustc/4b91a6ea7258a947e59c6522cd5898e7c0a6a88f/library/core/src/panicking.rs:142:14
+   2: core::result::unwrap_failed
+             at /rustc/4b91a6ea7258a947e59c6522cd5898e7c0a6a88f/library/core/src/result.rs:1805:5
+   3: core::result::Result<T,E>::unwrap
+             at /rustc/4b91a6ea7258a947e59c6522cd5898e7c0a6a88f/library/core/src/result.rs:1098:23
+   4: wiring_rs::ldtab2ofn::thick_triple_parser::parse_string
+             at ./wiring.rs/src/ldtab2ofn/thick_triple_parser.rs:18:24
+   5: wiring_rs::ldtab2ofn::thick_triple_parser::parse_thick_triple
+             at ./wiring.rs/src/ldtab2ofn/thick_triple_parser.rs:57:26
+   6: wiring_rs::python_module::ldtab_2_ofn
+             at ./wiring.rs/src/python_module.rs:54:26
+   7: wiring_rs::python_module::__pyo3_raw_ldtab_2_ofn::{{closure}}
+             at ./wiring.rs/src/python_module.rs:51:1
+   8: pyo3::callback::handle_panic::{{closure}}
+             at /home/huseyin/.cargo/registry/src/github.com-1ecc6299db9ec823/pyo3-0.14.5/src/callback.rs:247:9
+   9: std::panicking::try::do_call
+             at /rustc/4b91a6ea7258a947e59c6522cd5898e7c0a6a88f/library/std/src/panicking.rs:492:40
+  10: __rust_try
+  11: std::panicking::try
+             at /rustc/4b91a6ea7258a947e59c6522cd5898e7c0a6a88f/library/std/src/panicking.rs:456:19
+  12: std::panic::catch_unwind
+             at /rustc/4b91a6ea7258a947e59c6522cd5898e7c0a6a88f/library/std/src/panic.rs:137:14
+  13: pyo3::callback::handle_panic
+             at /home/huseyin/.cargo/registry/src/github.com-1ecc6299db9ec823/pyo3-0.14.5/src/callback.rs:245:24
+  14: wiring_rs::python_module::__pyo3_raw_ldtab_2_ofn
+             at ./wiring.rs/src/python_module.rs:51:1
+  15: <unknown>
+  16: _PyObject_MakeTpCall
+  17: _PyEval_EvalFrameDefault
+  18: _PyFunction_Vectorcall
+  19: _PyEval_EvalFrameDefault
+  20: <unknown>
+  21: PyEval_EvalCode
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: _PyRun_SimpleFileObject
+  26: _PyRun_AnyFileObject
+  27: Py_RunMain
+  28: Py_BytesMain
+  29: __libc_start_call_main
+             at ./csu/../sysdeps/nptl/libc_start_call_main.h:58:16
+  30: __libc_start_main_impl
+             at ./csu/../csu/libc-start.c:392:3
+  31: _start
+
+
+
+
+
+
+---------------------
+nanobot autocomplete (bds services, mouse curation robot file)
+mapping tool (2 taxonomy visualization with James's trees)
+
+
+

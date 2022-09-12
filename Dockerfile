@@ -20,7 +20,8 @@ RUN mv Cargo.toml wiring.rs/
 RUN echo "mod python_module;" >> wiring.rs/src/lib.rs
 RUN pip install -U pip maturin
 RUN maturin build --release --out dist -m wiring.rs/Cargo.toml
-RUN pip install dist/wiring_rs-0.1.1-cp36-abi3-manylinux_2_28_x86_64.whl
+# RUN pip install dist/wiring_rs-0.1.1-cp36-abi3-manylinux_2_28_x86_64.whl
+RUN pip install dist/wiring_rs-0.1.1-cp36-abi3-linux_x86_64.whl
 
 # install nanobot
 WORKDIR /tools

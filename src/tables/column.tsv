@@ -30,13 +30,13 @@ assay	parent	empty	label	tree(label)
 strain	ID		ontology_id	unique		
 strain	label		label			
 strain	species		ontology_label	from(import.Label)		
-bds	defined_class		ontology_id	primary		
+bds	defined_class		IRI	primary		
 bds	prefLabel		ontology_label			
-bds	Classification	empty	ontology_id	tree(defined_class)		
-bds	Classification_comment	empty	description			
-bds	Expresses	empty	description			
-bds	Expresses_pub	empty	description			
-bds	Projection_type	empty	ontology_id	tree(defined_class)		
+bds	Classification	empty	text			
+bds	Classification_comment	empty	text			
+bds	Expresses	empty	text			
+bds	Expresses_pub	empty	text			
+bds	Projection_type	empty	text			
 bds_config	Source		word	primary		
 bds_config	IRI		IRI			
 bds_config	Intermediates		intermediate_entities			
