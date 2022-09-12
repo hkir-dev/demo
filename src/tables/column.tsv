@@ -29,7 +29,7 @@ assay	label		label	unique
 assay	parent	empty	label	tree(label)		
 strain	ID		ontology_id	unique		
 strain	label		label			
-strain	species		ontology_label	from(import.Label)
+strain	species		ontology_label	from(import.Label)		
 bds	defined_class		ontology_id	primary		
 bds	prefLabel		ontology_label			
 bds	Classification	empty	ontology_id	tree(ID)		
