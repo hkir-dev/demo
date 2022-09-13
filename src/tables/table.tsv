@@ -9,3 +9,4 @@ assay	src/tables/assay.tsv
 strain	src/tables/strain.tsv		
 bds	src/tables/bds.tsv		
 bds_config	src/tables/bds_config.tsv		
+bds_taxonomy	src/tables/bds_taxonomy.tsv		

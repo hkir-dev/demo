@@ -30,14 +30,17 @@ assay	parent	empty	label	tree(label)
 strain	ID		ontology_id	unique		
 strain	label		label			
 strain	species		ontology_label	from(import.Label)		
-bds	defined_class		CURIE	primary		
-bds	prefLabel		ontology_label			
-bds	Classification	empty	text			
-bds	Classification_comment	empty	text			
-bds	Expresses	empty	text			
-bds	Expresses_pub	empty	text			
-bds	Projection_type	empty	text			
+bds	ID		word	primary		
+bds	Label		ontology_label			
+bds	Synonym	empty	text			
+bds	CL Classification	empty	text			
+bds	Brain Region	empty	text			
+bds	Level	empty	text			
 bds_config	Source		word	primary		
 bds_config	IRI		IRI			
 bds_config	Intermediates		intermediate_entities			
 bds_config	Predicates		trimmed_line			
+bds_taxonomy	Taxonomy ID		word	primary		
+bds_taxonomy	Species	empty	text			
+bds_taxonomy	Brain Region	empty	text			
+bds_taxonomy	Assay(s)	empty	text			
