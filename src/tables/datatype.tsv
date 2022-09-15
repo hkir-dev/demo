@@ -37,5 +37,5 @@ text					any text	TEXT	xsd:string	textarea
 trimmed_line	line		exclude(/^\s+|\s+$/)		a line of text that does not begin or end with whitespace			
 trimmed_text	text		exclude(/^\s+|\s+$/)		text that does not begin or end with whitespace			
 word	nonspace		exclude(/\W/)		a single word: letters, numbers, underscore			
-cell_type	word		in('Class', 'Subclass', 'Cell Type', 'NA')		a cell type			search
+cell_type	word		in('Class', 'Subclass', 'Cell Type', 'None')		a cell type			search
 autocomplete_cl	line		exclude(/^\s+|\s+$/)		a cell type			autocomplete(http://ec2-3-143-113-50.us-east-2.compute.amazonaws.com:8484/bds/api/autocomplete?query=,CL)
