@@ -118,7 +118,9 @@ load_%_import: build/demo.db build/%_search_view.sql | build/imports/%.db build/
 	sqlite3 $< "ANALYZE;"
 
 .PHONY: load_imports
-load_imports: load_cob_import load_obi_import load_uberon_import load_ncbitaxon_import
+load_imports: load_cob_import load_obi_import
+# TODO hk disabled some onts to speedup build on dev
+#load_imports: load_cob_import load_obi_import load_uberon_import load_ncbitaxon_import
 
 ### Import modules
 
@@ -209,7 +211,9 @@ load_ontology: build/demo.owl build/demo_search_view.sql build/demo.db | build/l
 	sqlite3 build/demo.db < $(word 2,$^)
 
 .PHONY: load
-load: load_imports load_ontology
+load: load_imports
+# TODO hk disabled ont to speedup build on dev
+#load: load_imports load_ontology
 
 .PHONY: reload
 reload: save load_ontology

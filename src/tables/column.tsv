@@ -33,9 +33,9 @@ strain	species		ontology_label	from(import.Label)
 bds	ID		word	primary		
 bds	Label		ontology_label			
 bds	Synonym	empty	text			
-bds	CL Classification	empty	trimmed_line			
+bds	CL Classification	empty	autocomplete_cl			
 bds	Brain Region	empty	trimmed_line			
-bds	Level	empty	word			
+bds	Level	empty	cell_type			
 bds_config	Source		word	primary		
 bds_config	IRI		IRI			
 bds_config	Intermediates		intermediate_entities			
