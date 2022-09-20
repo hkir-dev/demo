@@ -10,3 +10,5 @@ strain	src/tables/strain.tsv
 bds	src/tables/bds.tsv		
 bds_config	src/tables/bds_config.tsv		
 bds_taxonomy	src/tables/bds_taxonomy.tsv		
+bds_cross_taxonomy	src/tables/bds_cross_taxonomy.tsv		
+bds_location_mapping	src/tables/bds_location_mapping.tsv		

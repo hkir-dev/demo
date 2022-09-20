@@ -51,3 +51,17 @@ bds_taxonomy	brain_region_name	empty	text
 bds_taxonomy	assay_id	empty	text			
 bds_taxonomy	assay_name	empty	text			
 bds_taxonomy	Provenance	empty	text			
+bds_cross_taxonomy	cell_set_accession	empty	text			
+bds_cross_taxonomy	cell_type_name	empty	text			
+bds_cross_taxonomy	mapped_cell_set_accession	empty	text			
+bds_cross_taxonomy	mapped_cell_type_name	empty	trimmed_line			
+bds_cross_taxonomy	evidence_comment	empty	text			
+bds_cross_taxonomy	similarity_score	empty	trimmed_line			
+bds_cross_taxonomy	provenance	empty	text			
+bds_location_mapping	cell_set_accession		word	primary		
+bds_location_mapping	cell_type_name		ontology_label			
+bds_location_mapping	location_ontology_term_id		autocomplete_uberon			
+bds_location_mapping	location_ontology_term_name		trimmed_line			
+bds_location_mapping	evidence_comment		text			
+bds_location_mapping	supporting_data		text			
+bds_location_mapping	provenance		trimmed_line			

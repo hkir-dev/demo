@@ -1,0 +1,4 @@
+cell_set_accession	cell_type_name	location_ontology_term_id	location_ontology_term_name	evidence_comment	supporting_data	provenance
+CCN202002013_1	Lamp5-like Pax6	UBERON:0001384	primary motor cortex			
+CCN202002013_2	Lamp5-like Egln3_1	UBERON:0001384	primary motor cortex			
+CCN202002013_3	Lamp5 Egln3_2	UBERON:0001384	primary motor cortex			
