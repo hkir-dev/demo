@@ -34,7 +34,7 @@ bds	ID		word	primary
 bds	Label		ontology_label			
 bds	Synonym	empty	text			
 bds	CL Classification	empty	autocomplete_cl			
-bds	Brain Region	empty	trimmed_line			
+bds	Brain Region	empty	autocomplete_uberon			
 bds	Level	empty	cell_type			
 bds_config	Source		word	primary		
 bds_config	IRI		IRI			

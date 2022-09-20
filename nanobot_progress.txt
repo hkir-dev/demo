@@ -25,6 +25,9 @@ sqlite> .import bds_data.tsv bds_table
 
 select * from bds_table limit 5;
 
+.tables
+
+
 
 *************** https://github.com/ontodev/wiring.py
 
