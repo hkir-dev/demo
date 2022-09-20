@@ -1,20 +1,20 @@
-ID	Label	Synonym	CL Classification	Brain Region	Level
-CS202002013_1	Lamp5-like Pax6	Lamp5_4|Lamp5 Pax6		UBERON:0001384	Cell Type
-CS202002013_2	Lamp5-like Egln3_1	Sncg_4|Alpha7 cell	CL:4023010	UBERON:0001384	Cell Type
-CS202002013_3	Lamp5 Egln3_2	Canopy cell	CL:4023022	UBERON:0001384	
-CS202002013_4	Lamp5 Egln3_3	Lamp5 Egln3_3			
-CS202002013_5	Lamp5 Pdlim5_1	Lamp5_1			
-CS202002013_6	Lamp5 Pdlim5_2				
-CS202002013_7	Lamp5 Slc35d3				
-CS202002013_8	Lamp5 Lhx6	Lamp5 Lhx6|Lamp5_3|L5/6 neurogliaform cell	CL:4023023		
-CS202002013_9	Sncg Col14a1				
-CS202002013_10	Sncg Slc17a8				
-CS202002013_11	Sncg Calb1_1				
-CS202002013_12	Sncg Calb1_2				
-CS202002013_13	Sncg Npy2r				
-CS202002013_14	Vip Sncg	" 	Small CCK basket cell"			
-CS202002013_15	Vip Serpinf1_1				
-CS202002013_16	Vip Serpinf1_2	Vip Serpinf1_3			
-CS202002013_17	Vip Htr1f				
-CS202002013_18	Vip Gpc3				
-CS202002013_19	Vip C1ql1				
+cell_set_accession	cell_type_name	parent_cell_set_accession	synonyms	synonym_provenance	classifying_ontology_term_id	classifying_ontology_term_name	classification_provenance	rank
+CCN202002013_1	Lamp5-like Pax6	CCN202002013_126	Lamp5_4|Lamp5 Pax6					leaf_node
+CCN202002013_2	Lamp5-like Egln3_1	CCN202002013_127	Sncg_4|Alpha7 cell		CL:4023010		PMID:34616066	leaf_node
+CCN202002013_3	Lamp5 Egln3_2	CCN202002013_128	Canopy cell		CL:4023022		PMID:34616066	leaf_node
+CCN202002013_4	Lamp5 Egln3_3	CCN202002013_128	Lamp5 Egln3_3					
+CCN202002013_5	Lamp5 Pdlim5_1	CCN202002013_131	Lamp5_1					
+CCN202002013_6	Lamp5 Pdlim5_2	CCN202002013_131						
+CCN202002013_7	Lamp5 Slc35d3	CCN202002013_130						
+CCN202002013_8	Lamp5 Lhx6	CCN202002013_129	Lamp5 Lhx6|Lamp5_3|L5/6 neurogliaform cell		CL:4023023			
+CCN202002013_9	Sncg Col14a1	CCN202002013_134						
+CCN202002013_10	Sncg Slc17a8	CCN202002013_134						
+CCN202002013_11	Sncg Calb1_1	CCN202002013_136						
+CCN202002013_12	Sncg Calb1_2	CCN202002013_136						
+CCN202002013_13	Sncg Npy2r	CCN202002013_137						
+CCN202002013_14	Vip Sncg	CCN202002013_137	" 	Small CCK basket cell"					
+CCN202002013_15	Vip Serpinf1_1	CCN202002013_140						
+CCN202002013_16	Vip Serpinf1_2	CCN202002013_140	Vip Serpinf1_3					
+CCN202002013_17	Vip Htr1f	CCN202002013_143						
+CCN202002013_18	Vip Gpc3	CCN202002013_144						
+CCN202002013_19	Vip C1ql1	CCN202002013_144						

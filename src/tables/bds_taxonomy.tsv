@@ -1,2 +1,2 @@
-Taxonomy ID	Species	Brain Region	Assay(s)
-CCN202002013	Mouse	Primary Motor Cortex	Consensus
+Taxonomy ID	species_id	species_name	brain_region_id	brain_region_name	assay_id	assay_name	Provenance
+CCN202002013	NCBITaxon:10090	Mouse	UBERON:0001384	Primary Motor Cortex		Consensus	

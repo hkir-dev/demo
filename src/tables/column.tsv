@@ -30,17 +30,24 @@ assay	parent	empty	label	tree(label)
 strain	ID		ontology_id	unique		
 strain	label		label			
 strain	species		ontology_label	from(import.Label)		
-bds	ID		word	primary		
-bds	Label		ontology_label			
-bds	Synonym	empty	text			
-bds	CL Classification	empty	autocomplete_cl			
-bds	Brain Region	empty	autocomplete_uberon			
-bds	Level	empty	cell_type			
+bds	cell_set_accession		word	primary		
+bds	cell_type_name		ontology_label			
+bds	parent_cell_set_accession	empty	text			
+bds	synonyms	empty	text			
+bds	synonym_provenance	empty	text			
+bds	classifying_ontology_term_id	empty	autocomplete_cl			
+bds	classifying_ontology_term_name	empty	text			
+bds	classification_provenance	empty	text			
+bds	rank	empty	cell_type			
 bds_config	Source		word	primary		
 bds_config	IRI		IRI			
 bds_config	Intermediates		intermediate_entities			
 bds_config	Predicates		trimmed_line			
 bds_taxonomy	Taxonomy ID		word	primary		
-bds_taxonomy	Species	empty	text			
-bds_taxonomy	Brain Region	empty	text			
-bds_taxonomy	Assay(s)	empty	text			
+bds_taxonomy	species_id	empty	text			
+bds_taxonomy	species_name	empty	text			
+bds_taxonomy	brain_region_id	empty	autocomplete_uberon			
+bds_taxonomy	brain_region_name	empty	text			
+bds_taxonomy	assay_id	empty	text			
+bds_taxonomy	assay_name	empty	text			
+bds_taxonomy	Provenance	empty	text			
