@@ -95,6 +95,21 @@ load_tables: build/demo.db
 build/%.owl.gz: | build
 	curl -Lk "http://purl.obolibrary.org/obo/$*.owl" | gzip > $@
 
+build/uberon.owl.gz: | build
+	curl -Lk "https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/master/src/ontology/imports/uberon_import.owl" | gzip > $@
+
+build/ncbitaxon.owl.gz: | build
+	curl -Lk "https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/master/src/ontology/imports/ncbitaxon_import.owl" | gzip > $@
+
+build/CCN202002013.owl.gz: | build
+	curl -Lk "https://raw.githubusercontent.com/hkir-dev/demo/bican/resources/CCN202002013_class_hierarchy.owl" | gzip > $@
+
+build/CCN201912132.owl.gz: | build
+	curl -Lk "https://raw.githubusercontent.com/hkir-dev/demo/bican/resources/CCN201912132_class_hierarchy.owl" | gzip > $@
+
+build/CCN201912131.owl.gz: | build
+	curl -Lk "https://raw.githubusercontent.com/hkir-dev/demo/bican/resources/CCN201912131_class_hierarchy.owl" | gzip > $@
+
 build/imports/%.db: build/%.owl.gz src/tables/prefix.tsv | build/ldtab.jar build/imports/
 	rm -rf $@
 	$(LDTAB) init $@
@@ -118,8 +133,7 @@ load_%_import: build/demo.db build/%_search_view.sql | build/imports/%.db build/
 	sqlite3 $< "ANALYZE;"
 
 .PHONY: load_imports
-load_imports: load_cob_import load_obi_import
-# TODO hk disabled some onts to speedup build on dev
+load_imports: load_cob_import load_obi_import load_uberon_import load_CCN202002013_import load_CCN201912132_import load_CCN201912131_import load_ncbitaxon_import
 #load_imports: load_cob_import load_obi_import load_uberon_import load_ncbitaxon_import
 
 ### Import modules
@@ -211,8 +225,8 @@ load_ontology: build/demo.owl build/demo_search_view.sql build/demo.db | build/l
 	sqlite3 build/demo.db < $(word 2,$^)
 
 .PHONY: load
-load: load_imports
-# TODO hk disabled ont to speedup build on dev
+load: load_imports load_ontology
+# TODO hk disabled load_ontology to speedup build on dev
 #load: load_imports load_ontology
 
 .PHONY: reload

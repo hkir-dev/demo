@@ -25,6 +25,8 @@
 
 ## Installation
 
+If you already have an installed version, please clean it through following the steps defined in [re-installation](#re-installation)
+
 1- Clone the project
 ```
 git clone https://github.com/hkir-dev/demo.git
@@ -54,4 +56,14 @@ docker run --rm -it -p 5004:5555 -v $(pwd):/work -w /work odd:latest ./run.py
 6- Browse nanobot
 ```
 http://127.0.0.1:5004/bds
+```
+
+## Re-installation
+
+If you have an already installed system, please clean the existing build and update your code from branch:
+
+```
+cd demo
+sudo rm -rf build/
+git pull
 ```
