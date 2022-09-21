@@ -1,0 +1,2542 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:PR="http://purl.obolibrary.org/obo/PR_"
+     xmlns:RO="http://purl.obolibrary.org/obo/RO_"
+     xmlns:PCL="http://purl.obolibrary.org/obo/PCL_"
+     xmlns:n2o="http://n2o.neo/custom/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:jcvi="http://www.jcvi.org/framework/nsf2_full_mtg#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:UBERON="http://purl.obolibrary.org/obo/UBERON_"
+     xmlns:entrez="https://identifiers.org/ncbigene/"
+     xmlns:schema="http://schema.org/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:ensembl="http://identifiers.org/ensembl/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:ALLENHELP="http://www.semanticweb.org/brain_data_standards/allen_helper.owl#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://n2o.neo/custom/cell_set_additional_aliases -->
+
+    <AnnotationProperty rdf:about="http://n2o.neo/custom/cell_set_additional_aliases"/>
+    
+
+
+    <!-- http://n2o.neo/custom/cell_set_preferred_alias -->
+
+    <AnnotationProperty rdf:about="http://n2o.neo/custom/cell_set_preferred_alias"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0010059 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/PCL_0010059"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019501 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019501">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019619"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST NPY</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_1</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Chodl</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Chodl</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST NPY</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019502 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019502">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019642"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh LAMP5 COL5A2</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_2</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5_5</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh LAMP5 COL5A2</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh LAMP5 COL5A2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019503 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019503">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019642"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh LAMP5 TOX2</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_3</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5_1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh LAMP5 TOX2</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh LAMP5 TOX2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019504 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019504">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019643"/>
+        <n2o:cell_set_additional_aliases rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5_3</n2o:cell_set_additional_aliases>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh LAMP5 TRPC6</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_4</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 Lhx6</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5_3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh LAMP5 TRPC6</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh LAMP5 TRPC6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019505 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019505">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019620"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh LAMP5 WWP1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_5</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh LAMP5 WWP1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh LAMP5 WWP1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019506 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019506">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019620"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh LAMP5 LOC108591196</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_6</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh LAMP5 LOC108591196</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh LAMP5 LOC108591196</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019507 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019507">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019648"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019650"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PAX6 HMBOX1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_7</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5_4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PAX6 HMBOX1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PAX6 HMBOX1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019508 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019508">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019651"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SNCG PLPPR1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_8</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg_2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SNCG PLPPR1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SNCG PLPPR1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019509 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019509">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019621"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019651"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PAX6 ANKRD6</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_9</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PAX6 ANKRD6</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PAX6 ANKRD6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019510 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019510">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019622"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP CYP19A1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_10</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP CYP19A1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP CYP19A1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019511 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019511">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019622"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SNCG CNTN4</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_11</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SNCG CNTN4</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SNCG CNTN4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019512 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019512">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019621"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019653"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PAX6 CDH4</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_12</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PAX6 CDH4</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PAX6 CDH4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019513 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019513">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019623"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh GAD1 PCP4</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_13</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh GAD1 PCP4</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh GAD1 PCP4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019514 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019514">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019623"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh GAD1 LOC108589948</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_14</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh GAD1 LOC108589948</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh GAD1 LOC108589948</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019515 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019515">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019624"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019648"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019652"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP THSD7B</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_15</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP THSD7B</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP THSD7B</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019516 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019516">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019655"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP LOC100397259</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_16</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP LOC100397259</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP LOC100397259</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019517 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019517">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019655"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh GAD1 NPSR1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_17</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh GAD1 NPSR1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh GAD1 NPSR1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019518 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019518">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019625"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019657"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SNCG LOC108587895</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_18</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SNCG LOC108587895</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SNCG LOC108587895</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019519 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019519">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019626"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP LOC108589153</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_19</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP LOC108589153</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP LOC108589153</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019520 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019520">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019626"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP FIGN</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_20</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP FIGN</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP FIGN</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019521 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019521">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019627"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP GPR149</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_21</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP GPR149</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP GPR149</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019522 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019522">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019659"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP LOC108588071</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_22</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP LOC108588071</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP LOC108588071</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019523 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019523">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019659"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP VAT1L</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_23</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP VAT1L</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP VAT1L</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019524 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019524">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019625"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019660"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP CIT</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_24</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP CIT</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP CIT</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019525 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019525">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019624"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019660"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP LOC108588539</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_25</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP LOC108588539</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh VIP LOC108588539</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019526 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019526">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019646"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PAX6 MEIS2</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_26</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meis2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meis2</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PAX6 MEIS2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019527 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019527">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019664"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST LOC108589054</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_27</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst_5</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST LOC108589054</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST LOC108589054</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019528 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019528">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019664"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST LOC108588801</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_28</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst_6</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST LOC108588801</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST LOC108588801</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019529 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019529">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019663"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST LOC103788138</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_29</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst_7</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST LOC103788138</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST LOC103788138</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019530 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019530">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019619"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019666"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST MPP5</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_30</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST MPP5</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST MPP5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019531 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019531">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019668"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST KIRREL3</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_31</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST KIRREL3</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST KIRREL3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019532 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019532">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019669"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST LOC103788660</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_32</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST LOC103788660</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST LOC103788660</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019533 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019533">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019669"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST CBLN4</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_33</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST CBLN4</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST CBLN4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019534 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019534">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019671"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST ABI3BP</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_34</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST ABI3BP</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST ABI3BP</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019535 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019535">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019671"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST TMEFF2</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_35</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST TMEFF2</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST TMEFF2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019536 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019536">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019670"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST P4HA1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_36</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST P4HA1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST P4HA1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019537 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019537">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019673"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST LTBP1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_37</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst_4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST LTBP1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST LTBP1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019538 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019538">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019674"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST AIM1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_38</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst_1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST AIM1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST AIM1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019539 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019539">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019674"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST VAPA</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_39</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst_2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST VAPA</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST VAPA</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019540 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019540">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019628"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019672"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST PCSK5</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_40</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST PCSK5</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh SST PCSK5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019541 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019541">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019678"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB OTOGL</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_41</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB OTOGL</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB OTOGL</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019542 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019542">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019680"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB LOC103790362</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_42</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB LOC103790362</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB LOC103790362</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019543 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019681"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB OSBP2</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_43</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB OSBP2</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB OSBP2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019544 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019544">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019681"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB LOC103789439</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_44</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB LOC103789439</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB LOC103789439</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019545 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019545">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019682"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB GSTK1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_45</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB GSTK1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB GSTK1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019546 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019546">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019682"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB C8H7orf62</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_46</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB C8H7orf62</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB C8H7orf62</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019547 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019598"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019628"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019683"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB SST LRRC6</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_47</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB SST LRRC6</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB SST LRRC6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019548 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019548">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019685"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB ADAMTS3</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_48</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB ADAMTS3</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB ADAMTS3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019549 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019549">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019685"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB SST EYS</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_49</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB SST EYS</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB SST EYS</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019550 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019550">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019684"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB PCDH19</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_50</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB PCDH19</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB PCDH19</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019551 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019551">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019599"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019676"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB KLHL29</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_51</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb_2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB KLHL29</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB KLHL29</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019552 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019552">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019599"/>
+        <n2o:cell_set_additional_aliases rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chandelier cell</n2o:cell_set_additional_aliases>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB FAM19A4</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_52</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chandelier</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chandelier cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB FAM19A4</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inh PVALB FAM19A4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019553 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019553">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019600"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc THEMIS ANO3</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_53</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc THEMIS ANO3</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc THEMIS ANO3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019554 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019554">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019695"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB LOC108588466</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_54</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB LOC108588466</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB LOC108588466</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019555 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019555">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019696"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB SERPINE2</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_55</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB SERPINE2</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB SERPINE2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019556 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019556">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019696"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB NDST3</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_56</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB NDST3</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB NDST3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019557 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019557">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019630"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019694"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB KNL1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_57</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB KNL1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB KNL1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019558 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019558">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019630"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019693"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB CAV3</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_58</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB CAV3</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB CAV3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019559 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019559">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019602"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc THEMIS KCTD16</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_59</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 IT_2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc THEMIS KCTD16</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc THEMIS KCTD16</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019560 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019560">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019602"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc THEMIS COBL</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_60</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 IT_1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc THEMIS COBL</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc THEMIS COBL</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019561 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019561">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019699"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB LOC108593203</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_61</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB LOC108593203</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB LOC108593203</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019562 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019562">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019699"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB ANKRD27</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_62</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB ANKRD27</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB ANKRD27</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019563 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019563">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019698"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB ACTA2</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_63</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB ACTA2</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB ACTA2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019564 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019564">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019697"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB USH1C</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_64</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB USH1C</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB USH1C</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019565 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019565">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019700"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB SLC38A11</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_65</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 IT_3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB SLC38A11</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB SLC38A11</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019566 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019566">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019631"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB PPA2</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_66</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB PPA2</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB PPA2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019567 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019567">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019701"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB CHGA</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_67</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB CHGA</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB CHGA</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019568 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019568">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019701"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB HACL1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_68</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB HACL1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc RORB HACL1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019569 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019569">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019605"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019638"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019689"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo SLC1A3 LOC103793418</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_69</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo SLC1A3 LOC103793418</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo SLC1A3 LOC103793418</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019570 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019632"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc THEMIS ARL13B</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_70</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc THEMIS ARL13B</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc THEMIS ARL13B</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019571 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019571">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019632"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc FEZF2 PIEZO2</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_71</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc FEZF2 PIEZO2</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc FEZF2 PIEZO2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019572 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019572">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019603"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc FEZF2 PDZRN4</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_72</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 ET_2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc FEZF2 PDZRN4</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc FEZF2 PDZRN4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019573 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019573">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019604"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019688"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc FEZF2 RGS4</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_73</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT_1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc FEZF2 RGS4</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc FEZF2 RGS4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019574 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019574">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019604"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019687"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc FEZF2 NRP1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_74</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT_2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc FEZF2 NRP1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc FEZF2 NRP1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019575 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019575">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019687"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019702"/>
+        <n2o:cell_set_additional_aliases rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6b</n2o:cell_set_additional_aliases>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc FEZF2 ARSJ</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_75</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6b</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6b</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc FEZF2 ARSJ</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019576 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019576">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019612"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019613"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019686"/>
+        <n2o:cell_set_additional_aliases rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 IT_3</n2o:cell_set_additional_aliases>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc THEMIS NTNG2</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_76</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 IT Car3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 IT_3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 IT Car3</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc THEMIS NTNG2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019577 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019577">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019613"/>
+        <n2o:cell_set_additional_aliases rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5/6 NP</n2o:cell_set_additional_aliases>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc FEZF2 CRYM</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_77</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5/6 NP</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exc FEZF2 CRYM</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019578 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019578">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019614"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019638"/>
+        <n2o:cell_set_additional_aliases rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OPC</n2o:cell_set_additional_aliases>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OPC PDGFRA VCAN</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_78</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OPC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OPC</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OPC PDGFRA VCAN</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019579 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019579">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019633"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro FGFR3 EPHB1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_79</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro FGFR3 EPHB1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro FGFR3 EPHB1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019580 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019580">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019704"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro FGFR3 NWD1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_80</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro FGFR3 NWD1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro FGFR3 NWD1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019581 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019581">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019704"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro FGFR3 RCN2</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_81</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro FGFR3 RCN2</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro FGFR3 RCN2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019582 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019582">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019606"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro FGFR3 GFAP</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_82</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro_1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro FGFR3 GFAP</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro FGFR3 GFAP</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019583 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019583">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019705"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo OPALIN LOC103790018</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_83</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo_2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo OPALIN LOC103790018</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo OPALIN LOC103790018</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019584 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019584">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019705"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo OPALIN MOBP</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_84</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo_1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo OPALIN MOBP</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo OPALIN MOBP</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019585 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019585">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019708"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endo NOSTRIN IL1R1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_85</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endo NOSTRIN IL1R1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endo NOSTRIN IL1R1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019586 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019708"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endo NOSTRIN CXCL12</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_86</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endo NOSTRIN CXCL12</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endo NOSTRIN CXCL12</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019587 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019607"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glia SLC1A3-like FBLN5</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_87</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glia SLC1A3 FBLN5</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glia SLC1A3-like FBLN5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019588 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019588">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019608"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peri SLC1A3-like CHST3</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_88</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peri SLC1A3 CHST3</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peri SLC1A3-like CHST3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019589 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019589">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019608"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peri SLC1A3-like EPSTI1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_89</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peri SLC1A3 EPSTI1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peri SLC1A3-like EPSTI1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019590 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019590">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019634"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC PDGFRA C7</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_90</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC PDGFRA C7</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC PDGFRA C7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019591 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019591">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019709"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC SLC1A3 CEMIP</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_91</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC SLC1A3 CEMIP</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC SLC1A3 CEMIP</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019592 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019592">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019709"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC SLC1A3 SLC13A3</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_92</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC SLC1A3 SLC13A3</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC SLC1A3 SLC13A3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019593 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019593">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019609"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC SLC1A3-like SLC47A1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_93</obo:PCL_0010059>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC SLC1A3 SLC47A1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC SLC1A3-like SLC47A1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019594 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019594">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019615"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Micro TYROBP LOC103788313</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_94</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microglia-PVM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Micro-PVM</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Micro TYROBP LOC103788313</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019595 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019595">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019611"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Lamp5)-like</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_95</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Lamp5)-like</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019596 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019596">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019648"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Sncg)-like</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_96</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Sncg)-like</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019597 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019597">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019647"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Vip)-like</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_97</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Vip)-like</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019598 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019598">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019661"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Sst)-like</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_98</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Sst)-like</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019599 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019661"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019675"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Pvalb)-like</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_99</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Pvalb)-like</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019600 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019600">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019694"/>
+        <n2o:cell_set_additional_aliases rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L2/3 IT</n2o:cell_set_additional_aliases>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse L2/3 IT)-like</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_100</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L2/3 IT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L2/3 IT</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse L2/3 IT)-like</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019601 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019601">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019690"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse L5 IT)-like</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_101</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 IT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 IT</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse L5 IT)-like</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019602 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019602">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019692"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse L6 IT)-like</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_102</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 IT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 IT</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse L6 IT)-like</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019603 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019603">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019613"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019688"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse L5 ET)-like</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_103</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 ET</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 ET</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse L5 ET)-like</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019604 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019604">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019702"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse L6 CT)-like</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_104</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse L6 CT)-like</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019605 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019605">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019614"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_105</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligodendrocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019606 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019606">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019703"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_106</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astrocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019607 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019607">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019707"/>
+        <n2o:cell_set_additional_aliases rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endo</n2o:cell_set_additional_aliases>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endo</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_107</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endo</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endothelial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endo</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endo</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019608 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019608">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019707"/>
+        <n2o:cell_set_additional_aliases rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peri</n2o:cell_set_additional_aliases>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peri</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_108</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peri</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pericyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peri</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peri</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019609 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019609">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019706"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_109</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019610 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019610">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019616"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse MGE)-like</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_110</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MGE</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse MGE)-like</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019611 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019611">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019616"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse CGE/PoA)-like</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_111</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CGE/PoA</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse CGE/PoA)-like</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019612 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019612">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019686"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse IT projecting)-like</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_112</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT projecting</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse IT projecting)-like</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019613 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019613">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019617"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Non-IT projecting)-like</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_113</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-IT projecting</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Non-IT projecting)-like</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019614 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019614">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019618"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo-OPC</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_114</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligodendrocyte-OPC</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo-OPC</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019615 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019615">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019635"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neural</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_115</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-neural</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neural</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neural</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019616 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019616">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019639"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GABAergic</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_116</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuronal: GABAergic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GABAergic</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GABAergic</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019617 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019617">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019644"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glutamatergic</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_117</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuronal: Glutamatergic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glutamatergic</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glutamatergic</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019618 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019618">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019637"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neuronal</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_118</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-neuronal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neuronal</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neuronal</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019619 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019619">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019610"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Chodl(i)</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_119</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Chodl</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Chodl(i)</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019620 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019620">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019643"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Lamp5)-like_C2</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_120</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5_2</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Lamp5)-like_C2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019621 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019621">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019596"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Sncg)-like_C1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_121</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg_1</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Sncg)-like_C1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019622 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019622">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019596"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019649"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Sncg)-like_C3</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_122</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg_3</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Sncg)-like_C3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019623 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019653"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Sncg)-like_C4</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_123</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg_4</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Sncg)-like_C4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019624 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019624">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019597"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Vip)-like_C4</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_124</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip_4</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Vip)-like_C4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019625 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019625">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019654"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Vip)-like_C2</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_125</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip_2</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Vip)-like_C2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019626 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019626">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019657"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Vip)-like_C1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_126</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip_1</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Vip)-like_C1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019627 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019627">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019658"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Vip)-like_C3</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_127</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip_3</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Vip)-like_C3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019628 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019628">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019598"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Sst)-like_C3</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_128</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst_3</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Sst)-like_C3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019629 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019629">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019599"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019677"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Pvalb)-like_C1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_129</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb_1</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse Pvalb)-like_C1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019630 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019601"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse L5 IT)-like_C1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_130</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 IT_1</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse L5 IT)-like_C1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019631 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019631">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019700"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse L5 IT)-like_C2</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_131</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 IT_2</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse L5 IT)-like_C2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019632 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019632">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019603"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse L5 ET)-like_C1</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_132</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 ET_1</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Mouse L5 ET)-like_C1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019633 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019606"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro_C2</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_133</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro_2</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro_C2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019634 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019609"/>
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC(i)</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_134</obo:PCL_0010059>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC(i)</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019635 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019635">
+        <n2o:cell_set_preferred_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All cells</n2o:cell_set_preferred_alias>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_135</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All cells</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019636 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019636">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019635"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_136</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_136</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019637 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019637">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019636"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_137</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_137</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019638 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019638">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019637"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_138</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_138</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019639 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019639">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019638"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_139</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_139</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019640 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019640">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019639"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_140</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_140</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019641 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019641">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019640"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_141</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_141</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019642 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019642">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019641"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_142</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_142</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019643 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019643">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019641"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_143</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_143</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019644 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019644">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019640"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_144</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_144</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019645 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019645">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019616"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019644"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_145</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_145</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019646 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019646">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019611"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019645"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_146</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_146</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019647 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019646"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_147</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_147</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019648 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019648">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019647"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_148</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_148</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019649 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019649">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019648"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_149</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_149</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019650 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019650">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019649"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_150</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_150</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019651 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019651">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019596"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019650"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_151</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_151</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019652 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019652">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019648"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_152</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_152</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019653 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019653">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019596"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019652"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_153</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_153</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019654 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019654">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019597"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_154</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_154</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019655 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019655">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019625"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019654"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_155</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_155</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019656 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019656">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019654"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_156</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_156</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019657 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019657">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019656"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_157</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_157</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019658 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019658">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019656"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_158</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_158</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019659 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019659">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019627"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_159</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_159</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019660 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019660">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019658"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_160</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_160</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019661 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019661">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019610"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019645"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_161</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_161</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019662 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019662">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019598"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_162</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_162</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019663 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019663">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019662"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_163</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_163</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019664 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019664">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019663"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_164</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_164</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019665 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019665">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019662"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_165</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_165</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019666 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019666">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019665"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_166</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_166</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019667 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019667">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019628"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019666"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_167</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_167</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019668 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019668">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019667"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_168</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_168</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019669 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019669">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019668"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_169</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_169</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019670 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019670">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019667"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_170</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_170</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019671 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019671">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019670"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_171</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_171</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019672 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019672">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019665"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_172</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_172</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019673 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019673">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019672"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_173</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_173</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019674 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019674">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019673"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_174</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_174</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019675 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019675">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019661"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_175</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_175</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019676 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019676">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019675"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_176</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_176</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019677 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019677">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019676"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_177</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_177</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019678 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019678">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019629"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_178</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_178</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019679 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019679">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019678"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_179</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_179</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019680 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019680">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019679"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_180</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_180</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019681 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019681">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019680"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_181</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_181</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019682 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019682">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019679"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_182</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_182</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019683 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019683">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019677"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_183</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_183</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019684 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019684">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019629"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019683"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_184</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_184</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019685 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019685">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019684"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_185</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_185</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019686 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019686">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019617"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_186</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_186</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019687 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019687">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019686"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_187</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_187</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019688 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019688">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019687"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_188</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_188</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019689 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019689">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019638"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_189</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_189</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019690 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019690">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019612"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019688"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019689"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_190</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_190</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019691 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019691">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019690"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_191</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_191</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019692 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019692">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019691"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_192</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_192</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019693 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019693">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019692"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_193</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_193</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019694 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019694">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019693"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_194</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_194</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019695 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019695">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019600"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_195</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_195</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019696 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019696">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019695"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_196</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_196</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019697 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019697">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019630"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019691"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_197</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_197</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019698 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019698">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019697"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_198</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_198</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019699 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019699">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019698"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_199</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_199</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019700 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019700">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019601"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_200</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_200</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019701 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019701">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019631"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_201</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_201</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019702 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019702">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019613"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_202</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_202</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019703 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019703">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019618"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_203</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_203</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019704 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019704">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019633"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_204</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_204</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019705 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019705">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019605"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019703"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_205</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_205</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019706 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019706">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019615"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019636"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_206</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_206</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019707 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019707">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019706"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_207</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_207</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019708 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019708">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019607"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_208</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_208</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0019709 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PCL_0019709">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0019634"/>
+        <obo:PCL_0010059 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_209</obo:PCL_0010059>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS201912132_209</rdfs:label>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
